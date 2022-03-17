@@ -16,13 +16,11 @@ const fetchBreedDescription = (breedName, callback) => {
     const data = JSON.parse(body);
     // checks if data exists
     if (data[0]) {
-      // return console.log(data[0].description);
       callback(null, data[0].description);
     } else {
-      // return console.log('Cat breed not found.');
       callback(null, 'Breed not found.');
     }
   });
-}
+};
 
 module.exports = { fetchBreedDescription };

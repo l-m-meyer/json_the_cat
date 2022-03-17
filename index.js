@@ -1,3 +1,5 @@
+// main file to run program
+
 const { fetchBreedDescription } = require('./breedFetcher');
 
 // retrieves command-line arguments
