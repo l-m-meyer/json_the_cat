@@ -1,6 +1,6 @@
 /**
  * Program will use TheCatAPI to fetch descriptions of cat breeds.
- * 
+ *
  * @returns {String} Description of queried cat breed
  */
 const request = require('request');
